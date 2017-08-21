@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load my_extras %}
+
+  {% block body_block %}
+    <h1>Welcome to the INDEX page</h1>
+    <h2>Goto basic_app/relative </h2>
+    <h2>{{ text|cu:'Worl' }}</h2>
+    <h2>{{ number|add:'21' }}</h2>
+  {% endblock %}
